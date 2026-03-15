@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-03-15T10:19:25.941637",
+  "signal_type": "anomaly_detection",
+  "source": "track-a2/autoencoder",
+  "machine_id": "M001",
+  "value": {
+    "anomaly_score": 0.26431403615347204,
+    "threshold": 0.001994781910263262,
+    "status": "ANOMALY",
+    "alert_level": "HIGH",
+    "description": "설비 진동 신호 재구성 오차 기반 이상 감지"
+  },
+  "metadata": {
+    "model": "ManufacturingAutoEncoder",
+    "architecture": "128-64-32-64-128",
+    "notebook": "01_autoencoder_anomaly.ipynb"
+  }
+}

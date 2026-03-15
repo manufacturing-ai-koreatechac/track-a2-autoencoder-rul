@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-03-15T10:16:00.198796",
+  "signal_type": "rul_prediction",
+  "source": "track-a2/lstm",
+  "machine_id": "M001",
+  "value": {
+    "rul_days": 59.476959228515625,
+    "confidence": 0.85,
+    "maintenance_urgency": "MEDIUM",
+    "rmse": 51.96446069941696,
+    "description": "LSTM 기반 설비 잔여수명(RUL) 예측"
+  },
+  "metadata": {
+    "model": "RULPredictor",
+    "architecture": "LSTM(hidden=64, layers=2)",
+    "notebook": "02_lstm_rul_prediction.ipynb"
+  }
+}

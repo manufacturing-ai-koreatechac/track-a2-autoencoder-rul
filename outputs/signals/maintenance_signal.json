@@ -1,0 +1,24 @@
+{
+  "timestamp": "2026-03-15T09:55:24.619528",
+  "signal_type": "maintenance_schedule",
+  "source": "track-a2/maintenance",
+  "machine_id": "M001",
+  "value": {
+    "strategy": "PdM",
+    "next_maintenance_date": "2026-03-27",
+    "days_until_maintenance": 12,
+    "priority": "HIGH",
+    "estimated_cost_saving_pct": 35.0,
+    "roi_pct": 250.0,
+    "recommended_action": "베어링 교체 + 오일 점검",
+    "description": "예측 기반 정비 일정 및 비용 분석"
+  },
+  "metadata": {
+    "strategies_compared": [
+      "TBM",
+      "PM",
+      "PdM"
+    ],
+    "notebook": "03_maintenance_schedule.ipynb"
+  }
+}
