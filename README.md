@@ -25,6 +25,14 @@
 - **NASA C-MAPSS** (55MB): 터빈 엔진 수명 데이터 — [다운로드 안내](data/DATASET.md)
 - **KAMP id=26**: 공정 이상 예지 데이터 (한국 스마트제조 포털)
 
+## 관련 공개 데이터셋
+
+| # | 데이터셋 | 설명 | 규모 | 링크 |
+|:-:|---------|------|:----:|------|
+| 1 | **NASA C-MAPSS FD001~FD004** | 터빈 엔진 수명 시뮬레이션 데이터. RUL 레이블 포함. FD001(단일 조건)→FD004(복합 조건) 4단계 난이도. 본 실습 핵심 데이터셋. | 4개 서브셋 | [NASA Prognostics](https://data.nasa.gov/Aerospace/CMAPSS-Jet-Engine-Simulated-Data/ff5v-kuh6) |
+| 2 | **PHM 2008 Data Challenge** | PHM Society가 제공한 터보팬 엔진 열화 데이터. C-MAPSS와 동일 계열. 앙상블 RUL 예측에 활용. | Train 218기 | [PHM Society](https://phmsociety.org/phm_competition/2008-phm-society-conference-data-challenge/) |
+| 3 | **PRONOSTIA (FEMTO-ST) Bearing** | 실제 베어링을 고장까지 돌리며 수집한 진동 데이터. 가속수명시험(ALT) 방식. RUL 벤치마크 표준 데이터셋. | 17개 런 | [FEMTO-ST](https://www.femto-st.fr/en/Research-departments/AS2M/Research-groups/PHM/IEEE-PHM-2012-Data-challenge) |
+
 ## 연계 세션
 
 - 선수: [Track A-1: 진동FFT 고장진단](https://github.com/manufacturing-ai-koreatechac/track-a1-vibration-fft)
