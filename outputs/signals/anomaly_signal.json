@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-15T10:19:25.941637",
+  "timestamp": "2026-03-15T16:54:18.067547",
   "signal_type": "anomaly_detection",
   "source": "track-a2/autoencoder",
   "machine_id": "M001",
